@@ -1,0 +1,46 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 18rem 1rem 18rem;
+  background-color: #3595be;
+}
+
+.headerContainer img {
+  width: 200px;
+  height: 30px;
+}
+
+.headerTextContainer {
+  display: flex;
+  gap: 3rem;
+  cursor: pointer;
+  align-items: center;
+  color: white;
+}
+.headerTextContainer button {
+  width: 125px;
+  height: 40px;
+  border-radius: 0.2rem;
+  font-size: 0.96rem;
+  cursor: pointer;
+  background-color: #00c6cf;
+  border: none;
+  color: white;
+  font-weight: 800;
+}
+.headerTextContainer span:hover {
+  color: #00c6cf;
+}
+/* .headerButtonContainer button {
+  width: 94px;
+  height: 40px;
+  border-radius: 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.headerButtonContainer:first-child {
+}
+.headerButtonContainer:last-child {
+}  */

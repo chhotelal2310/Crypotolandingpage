@@ -1,0 +1,31 @@
+.HomeContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+.HomeContainerTitleandSubTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* gap: 2rem; */
+}
+.HomeContainerTitleandSubTitle h1 {
+  font-size: 2.6rem;
+  color: white;
+  padding-bottom: 1rem;
+}
+.HomeContainerTitleandSubTitle p {
+  font-size: 1.5rem;
+  color: white;
+  padding-bottom: 3rem;
+}
+
+.HomeContainerAppandPlaytoreImage {
+  display: flex;
+  gap: 1.5rem;
+  cursor: pointer;
+}

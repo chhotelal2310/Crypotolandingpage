@@ -5,6 +5,7 @@
   align-items: center;
   margin-top: 4rem;
 }
+
 .HomeContainerTitleandSubTitle {
   display: flex;
   flex-direction: column;
@@ -13,11 +14,13 @@
   text-align: center;
   /* gap: 2rem; */
 }
+
 .HomeContainerTitleandSubTitle h1 {
   font-size: 2.6rem;
   color: white;
   padding-bottom: 1rem;
 }
+
 .HomeContainerTitleandSubTitle p {
   font-size: 1.5rem;
   color: white;
@@ -29,3 +32,83 @@
   gap: 1.5rem;
   cursor: pointer;
 }
+
+/**************************************** Handling the computer Image *******************/
+.headerandhomeContainer {
+  background-color: #0d4c7f;
+  background-image: linear-gradient(to top left, #0d4c7f, #43aed4);
+  width: 100%;
+  height: 95vh;
+}
+
+.cryptomackbookandcontainentImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cryptContainetImage {
+  top: 442px;
+  left: 645px;
+  z-index: 1;
+  width: 630px;
+  height: 392px;
+}
+
+.CryptoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* object-fit: cover; */
+}
+
+.CryptosiderImage img {
+  margin-top: 450px;
+}
+
+.CrptomackbookImage img {
+  width: 950px;
+  left: 490px;
+  top: 410px;
+  position: absolute;
+}
+
+/************************************************************************* background svg****************************/
+
+.bitCointBackgroundImageContainer {
+  /* background-image: url("../images/bitBackgroundImage/bitcoin-icon1.png"),
+    url("../images/bitBackgroundImage/bitcoin-icon2.png"),
+    url("../images/bitBackgroundImage/bitcoin-icon3.png")
+      url("../images/bitBackgroundImage/bitcoin-icon4.png"),
+    url("../images/bitBackgroundImage/bitcoin-icon5.png"),
+    url("../images/bitBackgroundImage/bitcoin-icon6.png"),
+    url("../images/bitBackgroundImage/bitcoin-icon7.png"),
+    url("../images/bitBackgroundImage/bitcoin-icon8.png"),
+    url("../images/bitBackgroundImage/bitcoin-icon9.png"),
+    url("../images/bitBackgroundImage/bitcoin-icon10.png"),
+    url("../images/bitBackgroundImage/bitcoin-icon11.png");
+
+  background-size: 10px 10px, 70px 70px, 60px 60px, 80px 80px, 40px 40px,
+    90px 90px, 55px 55px, 65px 65px, 75px 75px, 85px 85px, 95px 95px;
+
+  background-position: 0 0, 100px 100px, 200px 200px, 300px 300px, 400px 400px,
+    500px 500px, 600px 600px, 700px 700px, 800px 800px, 900px 900px,
+    1000px 1000px; */
+
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  z-index: 3;
+  left: 50px;
+  top: 160px;
+  /* background-color: red; */
+}
+
+/* .bitcoinSvg1 {
+  background-image: url("../images/bitBackgroundImage/bitcoin-icon1.png");
+  background-size: 20px 20px;
+  background-position: 10px 30px;
+  background-color: chartreuse;
+} */

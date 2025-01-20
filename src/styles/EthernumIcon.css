@@ -1,0 +1,12 @@
+.ethernummainContainer {
+  display: flex;
+  justify-content: end;
+}
+.ethernumContainer {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  /* background-color: red; */
+  top: 150px;
+  right: 20px;
+}

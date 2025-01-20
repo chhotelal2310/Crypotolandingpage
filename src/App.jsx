@@ -1,11 +1,15 @@
 import React from "react";
-import HeaderandHome from "./components/HeaderandHome";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import HeaderandHome from "../src/components/HeaderandHome";
 
 const App = () => {
   return (
-    <>
-      <HeaderandHome />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HeaderandHome />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 

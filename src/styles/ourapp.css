@@ -1,0 +1,76 @@
+.ourAppContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: 3rem;
+  align-items: center;
+}
+.ourAppTitleandSubTitleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.ourAppTitleandSubTitleContainer p {
+  font-size: 1.5rem;
+}
+
+.ourCardmainContainer {
+  margin-top: 5rem;
+}
+.featuresContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.featureItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 22%;
+  padding: 1rem;
+}
+.iconContainer {
+  padding-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconContainer img {
+  width: 35px;
+  height: 25px;
+}
+.iconContainer img {
+  border-radius: 20px;
+  z-index: 1;
+  position: absolute;
+}
+
+.textContainer {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.textContainer h3 {
+  color: #053d72;
+  font-size: 1.37rem;
+}
+
+.dividermainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  background-color: lightgray;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  height: 0.2rem;
+}
+.divider {
+  width: 33%;
+  height: 0.2rem;
+  background-color: #00c6cf;
+}

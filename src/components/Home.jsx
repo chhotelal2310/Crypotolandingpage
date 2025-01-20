@@ -1,7 +1,8 @@
 import React from "react";
 import appstoreImage from "../images/appstoreImage.svg";
 import playstoreImage from "../images/playstoreImage.svg";
-import cryptoComputerImage from "../images/cryptoComputerImage.png";
+import BitcoinSvg from "./BitcoinSvg";
+import EthernumIcon from "./EthernumIcon";
 import "../styles/home.css";
 
 function Home() {
@@ -17,6 +18,10 @@ function Home() {
           <img src={playstoreImage} />
         </div>
       </div>
+      <div>
+        <BitcoinSvg />
+      </div>
+      <EthernumIcon />
     </>
   );
 }

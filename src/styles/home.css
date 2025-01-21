@@ -78,37 +78,10 @@
 /************************************************************************* background svg****************************/
 
 .bitCointBackgroundImageContainer {
-  /* background-image: url("../images/bitBackgroundImage/bitcoin-icon1.png"),
-    url("../images/bitBackgroundImage/bitcoin-icon2.png"),
-    url("../images/bitBackgroundImage/bitcoin-icon3.png")
-      url("../images/bitBackgroundImage/bitcoin-icon4.png"),
-    url("../images/bitBackgroundImage/bitcoin-icon5.png"),
-    url("../images/bitBackgroundImage/bitcoin-icon6.png"),
-    url("../images/bitBackgroundImage/bitcoin-icon7.png"),
-    url("../images/bitBackgroundImage/bitcoin-icon8.png"),
-    url("../images/bitBackgroundImage/bitcoin-icon9.png"),
-    url("../images/bitBackgroundImage/bitcoin-icon10.png"),
-    url("../images/bitBackgroundImage/bitcoin-icon11.png");
-
-  background-size: 10px 10px, 70px 70px, 60px 60px, 80px 80px, 40px 40px,
-    90px 90px, 55px 55px, 65px 65px, 75px 75px, 85px 85px, 95px 95px;
-
-  background-position: 0 0, 100px 100px, 200px 200px, 300px 300px, 400px 400px,
-    500px 500px, 600px 600px, 700px 700px, 800px 800px, 900px 900px,
-    1000px 1000px; */
-
   width: 400px;
   height: 400px;
   position: absolute;
   z-index: 3;
   left: 50px;
   top: 160px;
-  /* background-color: red; */
 }
-
-/* .bitcoinSvg1 {
-  background-image: url("../images/bitBackgroundImage/bitcoin-icon1.png");
-  background-size: 20px 20px;
-  background-position: 10px 30px;
-  background-color: chartreuse;
-} */

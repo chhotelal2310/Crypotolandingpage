@@ -1,0 +1,147 @@
+.ReciveBitcoinMainContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.ReciveBitCoinbodyContainer {
+  width: 64%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* background-color: brown; */
+  padding: 2rem;
+}
+.ReciveBitCoinbodyContainerLeft {
+  width: 100%;
+  padding-right: 3.5rem;
+}
+.ReciveBitCoinbodyContainerLeft h1 {
+  color: #053d72;
+}
+
+.ReciveBitCoinbodyContainerLeft h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding-top: 0.4rem;
+  padding-bottom: 1.5rem;
+  color: #064da0;
+}
+/* .ReciveBitCoinbodyContainerLeft p {
+  font-size: 1.23rem;
+  padding-bottom: 1.8rem;
+} */
+.ReciveBitCoinbodyContainerLeftparagraph {
+  font-size: 1.23rem;
+  padding-bottom: 1.8rem;
+  color: #637397;
+}
+/* .bitCoinScoreContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+} */
+.bitCoinScoreContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.ArrowPointContainer {
+  /* background-color: blue; */
+  background-color: #f4f8fa;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  row-gap: 0.8rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+}
+
+.ArrowPointContainer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ArrowPointContainer p {
+  color: #637397;
+  font-size: 1.2rem;
+}
+.half-circle {
+  width: 200px;
+  height: 100px;
+  /* background-color: gold; */
+  border-top-left-radius: 110px;
+  border-top-right-radius: 110px;
+  border: 10px solid #f0f2f7;
+  border-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.half-circle1,
+.half-circle4 {
+  border: 10px solid #153375;
+  border-bottom: 0;
+}
+.half-circle2,
+.half-circle3 {
+  border-left-color: aquamarine;
+  border-top-color: aquamarine;
+}
+
+.half-circle span {
+  padding-top: 4rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #153375;
+}
+
+.gridContainerItem {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 1rem;
+  /* background-color: yellow; */
+}
+
+.gridContainerContainent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.gridContainerContainent h3 {
+  color: #053d72;
+}
+
+.gridContainerContainent p {
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  color: #63738c;
+}
+.dividermainContainerRecivebitcoin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 62%;
+  background-color: lightgray;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+  height: 0.2rem;
+}
+.dividerReciveBitecoin {
+  width: 33%;
+  height: 0.2rem;
+  background-color: #00c6cf;
+}

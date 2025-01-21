@@ -5,6 +5,10 @@ import CryptosiderImage from "../images/CryptoSiderImage.png";
 import CryptomackbookImage from "../images/CryptomacbookImage.png";
 import cryptoComputerImage from "../images/cryptoComputerImage.png";
 import OurApp from "./OurApp";
+import Comprehensive from "./Comprehensive";
+import SetupSecond from "./SetupSecond";
+import ReciveBitcoin from "./ReciveBitcoin";
+import CryptoandToken from "./CryptoandToken";
 
 const HeaderandHome = () => {
   return (
@@ -35,6 +39,10 @@ const HeaderandHome = () => {
         </div>
       </div>
       <OurApp />
+      <Comprehensive />
+      <SetupSecond />
+      <ReciveBitcoin />
+      <CryptoandToken />
     </>
   );
 };

@@ -1,0 +1,67 @@
+.Comprehesive {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coprehesiveTitleandSubTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coprehesiveTitleandSubTitle h1 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  color: #053d72;
+}
+.coprehesiveTitleandSubTitle p {
+  font-size: 1.8rem;
+  padding-bottom: 5rem;
+  color: #63738c;
+}
+
+.coprehesivecardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 60%;
+}
+.cardHeadingandContainet h2 {
+  color: #52799e;
+}
+.cardHeadingandContainet p {
+  color: #717170;
+}
+.phoneImage {
+  justify-content: center;
+  display: flex;
+}
+.phoneImage img {
+  width: 100%;
+  height: 100%;
+}
+.cardHeadingandContainet {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 1.4rem;
+}
+.cardHeadingandContainet p {
+  line-height: 1.5rem;
+  padding-top: 1rem;
+}
+.secondeCardIcon {
+  padding-left: 2rem;
+}
+.secondeCardIcon h2 {
+  color: #52799e;
+}
+.IconTextLine {
+  width: 100%;
+  height: 2px;
+  background-color: #063e73;
+}

@@ -144,6 +144,7 @@ const OurApp = () => {
       <div className="dividermainContainer">
         <div className="divider"></div>
       </div>
+
     </div>
   );
 };

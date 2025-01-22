@@ -9,6 +9,8 @@ import Comprehensive from "./Comprehensive";
 import SetupSecond from "./SetupSecond";
 import ReciveBitcoin from "./ReciveBitcoin";
 import CryptoandToken from "./CryptoandToken";
+import CryptoCurrencyWllate from "./CryptoCurrencyWallte";
+import PremiumVersion from "./PremiumVersion";
 
 const HeaderandHome = () => {
   return (
@@ -43,6 +45,8 @@ const HeaderandHome = () => {
       <SetupSecond />
       <ReciveBitcoin />
       <CryptoandToken />
+      <CryptoCurrencyWllate />
+      <PremiumVersion />
     </>
   );
 };

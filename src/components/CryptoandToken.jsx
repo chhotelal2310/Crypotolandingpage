@@ -23,6 +23,7 @@ const CryptoandToken = () => {
                 <div>
                     <h1>Supported Cryptocurrencies and Tokens</h1>
                 </div>
+
                 <div className="CryptoandTokenGridContainer">
                     <div><img src={bicoin} /></div>
                     <div><img src={monero} /></div>

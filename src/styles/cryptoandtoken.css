@@ -3,30 +3,86 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  margin-bottom: 4rem;
   /* height: 100%; */
 }
+.CryptoandTokenBodyContainer h1 {
+  color: #053d72;
+}
+
 .CryptoandTokenBodyContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 62%;
-  /* background-color: aqua; */
   padding: 0.5rem;
 }
+
 .CryptoandTokenGridContainer {
   display: grid;
-  /* background-color: yellow; */
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr);
   gap: 2rem;
-  /* width: 100%; */
-  /* padding: 2rem; */
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
 }
+
 .CryptoandTokenGridContainer div {
   width: 360px;
   height: 125px;
   background-color: #f4f8fa;
+  position: relative;
 }
+
+.CryptoandTokenGridContainer div::after {
+  content: "BitCoin";
+  background-color: #053d72;
+  cursor: pointer;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  transition: opacity 0.4s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1);
+  font-size: 1.2rem;
+  font-weight: 800;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.CryptoandTokenGridContainer div:hover::after {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* .BitcoinContent::after {
+  background-color: #053d72;
+  cursor: pointer;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  transition: opacity 0.4s ease-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1);
+  font-size: 1.2rem;
+  font-weight: 800;
+} */
+/* .BitcoinContent:hover::after {
+  visibility: visible;
+  opacity: 1;
+} */

@@ -1,0 +1,98 @@
+.CryptoWalletMainContainer {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.CyptoWalletBodyContainer {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to top, #212740 70%, #2b4266 100%);
+  gap: 3rem;
+  width: 80%;
+  align-items: center;
+  padding: 4rem;
+}
+.DownloadCryptoWallet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: aqua; */
+  /* width: 100%; */
+  /* gap: 2rem; */
+}
+
+.DownloadCryptoWallet h1 {
+  font-size: 3rem;
+  color: white;
+}
+.DownloadCryptoWallet h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+  padding-bottom: 3.8rem;
+}
+.DownloadCryptoWallet p {
+  font-size: 1.2rem;
+  color: white;
+  padding-top: 3.8rem;
+}
+.DownloadImageContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4rem;
+}
+.DownloadImageContainer img {
+  cursor: pointer;
+}
+.DownloadCryptoWallet span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.WalletDivider {
+  width: 83%;
+  /* height: 0.02rem; */
+  /* background-color: white; */
+  border: 0.5px dashed white;
+}
+
+.WalletreviewContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* background-color: aqua; */
+  width: 85%;
+  column-gap: 0.5rem;
+}
+.WalletreviewContainer div {
+  /* background-color: yellow; */
+  padding: 0.5rem;
+}
+
+.reviewContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.4rem;
+}
+.reviewContainer img {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  margin-top: 0.5rem;
+  border: 1px solid white;
+}
+.reviewContainer p {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.reviewTitle {
+  margin-top: 1rem;
+}
+.reviewTitle h4 {
+  color: #63738a;
+  font-size: 1.2rem;
+  font-weight: 900;
+  padding-bottom: 0.5rem;
+}

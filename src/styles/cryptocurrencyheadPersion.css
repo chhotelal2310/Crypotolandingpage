@@ -1,0 +1,100 @@
+.CryptoHeasPersionMainContianer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 8rem;
+  /* background-color: red; */
+}
+
+.CryptoCurrencyMainContianerTitleandSubTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CryptoCurrencyMainContianerTitleandSubTitle h1 {
+  color: #053d72;
+}
+.CryptoCurrencyMainContianerTitleandSubTitle p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding-top: 0.4rem;
+  color: #222222;
+}
+
+.CryptoHeasPersionBodyContianer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 64%;
+}
+.GridHeadPersionContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  /* background-color: aqua; */
+  align-items: center;
+  margin-top: 5rem;
+  gap: 2rem 1rem;
+}
+.GridHeadPersionContainer div {
+  /* background-color: blue; */
+}
+.GridHeadPersionBodyContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem;
+  gap: 1rem;
+}
+.ProfileImageContainer img {
+  border-radius: 50%;
+}
+
+.GridContainentHeadPersion {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0.5rem 0.5rem;
+}
+.gridItem-3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding-right: 2rem;
+}
+.gridItem-3 p {
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  color: #63738c;
+}
+.gridItem-1 h2 {
+  font-size: 1.28rem;
+  color: #053d72;
+}
+.gridItem-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gridItem-1 p {
+  font-size: 1rem;
+  font-weight: 600;
+  padding-top: 0.3rem;
+  color: #00c6cf;
+}
+.gridItem-2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1rem;
+  gap: 0.2rem;
+}
+.GridContainentHeadPersion div {
+  /* background-color: red; */
+}

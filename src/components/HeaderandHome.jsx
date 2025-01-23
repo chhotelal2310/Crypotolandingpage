@@ -11,6 +11,9 @@ import ReciveBitcoin from "./ReciveBitcoin";
 import CryptoandToken from "./CryptoandToken";
 import CryptoCurrencyWllate from "./CryptoCurrencyWallte";
 import PremiumVersion from "./PremiumVersion";
+import CryptoCurrencyHeadPersion from "./CryptoCurrencyHeadPersion";
+import EmailSubscribe from "./EmailSubscribe";
+import Footer from "./Footer";
 
 const HeaderandHome = () => {
   return (
@@ -47,6 +50,9 @@ const HeaderandHome = () => {
       <CryptoandToken />
       <CryptoCurrencyWllate />
       <PremiumVersion />
+      <CryptoCurrencyHeadPersion />
+      <EmailSubscribe />
+      <Footer />
     </>
   );
 };

@@ -1,0 +1,45 @@
+.EmailSubsCribeMainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+  margin-bottom: 5rem;
+  background: linear-gradient(to right, #0a4579 5%, #1d679a 75%, #0a4579 100%);
+  /* background-color: aqua; */
+}
+.EmailsubscribebodyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  /* background-color: blue; */
+  gap: 3rem;
+}
+.emailsubscribTitleandSubTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2.5rem;
+}
+.emailsubscribTitleandSubTitle p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  padding-top: 0.5rem;
+}
+.emailsubscribTitleandSubTitle h1 {
+  color: white;
+}
+.EmailandButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  border-radius: 0.3rem;
+}

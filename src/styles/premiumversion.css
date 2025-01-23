@@ -5,11 +5,29 @@
   width: 100%;
   margin-bottom: 5rem;
 }
+/* .PremiumversionMainContaianer h1 {
+  font-size: 1.7rem;
+} */
+.PremiumMainContainerTitleandSubTitle h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  color: #053d72;
+}
+
+.PremiumMainContainerTitleandSubTitle p {
+  font-size: 2rem;
+  padding-bottom: 5rem;
+  color: #707f95;
+  text-align: center;
+}
 
 .PremiumversionBodyContaianer {
-  width: 60%;
+  width: 63%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  align-items: center;
 }
 
 .PremiumVersionGridContainer {
@@ -20,7 +38,10 @@
 
 .PremiumVersionGridContainer div {
   /* background-color: brown; */
-  border: 0.5px solid black;
+  border: 0.5px solid #dde0e5;
+}
+.PremiumVersionGridContaineractive {
+  border: 1px solid #13c0cc;
 }
 .PremiumVersionGridContainer div:nth-child(3) {
   border-top: none !important;
@@ -36,9 +57,106 @@
   border-left: none;
   border-right: none;
 }
+.PremiumFirstContainer {
+  background-color: #f8f9fc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.PremiumFirstContainer h2 {
+  color: #66768e;
+  font-size: 1.7rem;
+  font-weight: 900;
+  padding-bottom: 0.6rem;
+}
+.PremiumFirstContainer p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #63738c;
+}
 
-.PremiumversionBodyContainer:nth-child(1)
-  .PremiumVersionGridContainer:nth-child(1)
-  > div:nth-child(2) {
-  background-color: blue;
+.PremiunsecondRowFirsColumn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1rem;
+  font-weight: 900;
+  color: #2b4269;
+  font-size: 1.2rem;
+}
+.DolerPerMonthSeconodColumnSecondRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DolerPerMonthSeconodColumnSecondRow span:nth-child(1) {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  color: #2b4269;
+}
+
+.DolerPerMonthSeconodColumnSecondRow span:nth-child(2) {
+  font-size: 6rem;
+  color: #2b4269;
+}
+.DolerPerMonthSeconodColumnSecondRow span:nth-child(3) {
+  font-size: 2rem;
+  padding-top: 3rem;
+  color: #2b4269;
+}
+
+.GridItemTextContainer234 div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.GridItemTextContainerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.GridItemTextContainer234 div:nth-child(1) {
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: #7c899e;
+}
+
+.GridItemTextContainer234 div:nth-child(2) {
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: #7c899e;
+}
+
+.GridItemTextContainer234 div:nth-child(4) {
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: #7c899e;
+}
+
+.GridItemTextContainerButton button {
+  width: 65%;
+  height: 33%;
+  border-radius: 0.2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #00c6cf;
+  border: none;
+  border: 1px solid #00c6cf;
+  background-color: white;
+}
+.GridItemTextContainerButton button:hover {
+  background-color: #00c6cf;
+  cursor: pointer;
+  color: white;
+}
+.GridItemTextContainerButtonActive button {
+  background-color: #00c6cf;
+  color: white;
+}
+.GridItemTextContainerButtonActive button:hover {
+  background-color: #13c0cc;
 }

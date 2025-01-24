@@ -2,7 +2,6 @@ import React from "react";
 import HexagonOutlinedIcon from "@mui/icons-material/HexagonOutlined";
 import "../styles/ourapp.css";
 import database from "../images/CaradIcon/database.jpg";
-
 const OurApp = () => {
   return (
     <div className="ourAppContainer">
@@ -144,7 +143,6 @@ const OurApp = () => {
       <div className="dividermainContainer">
         <div className="divider"></div>
       </div>
-
     </div>
   );
 };

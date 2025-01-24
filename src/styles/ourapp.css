@@ -49,6 +49,16 @@
   position: absolute;
 }
 
+.imgContainer {
+  width: 30px;
+  height: 30px;
+}
+.imgContainer {
+  border-radius: 20px;
+  z-index: 1;
+  position: absolute;
+}
+
 .textContainer {
   padding-left: 0.5rem;
   padding-right: 0.5rem;

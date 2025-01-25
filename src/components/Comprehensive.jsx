@@ -1,7 +1,10 @@
 import React from "react";
-import NotificationsActiveIcon from "@mui/icons-material/NotificationsActive";
-import "../styles/comprehesive.css";
+import {
+  comprehesiveFeatures1,
+  comprehesiveFeatures2,
+} from "../components/compehesiveFeatures/comprehesiveFeatures";
 import PhoneImage from "../images/PhoneImage.png";
+import "../styles/comprehesive.css";
 
 const Comprehensive = () => {
   return (
@@ -13,64 +16,26 @@ const Comprehensive = () => {
 
       <div className="coprehesivecardContainer">
         <div className="comprehesiveContainentContainer">
-          <div className="cardHeadingandContainet">
-            <div>
-              <h2>Portfolio Overview</h2>
-              <p>
-                Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Sed
-                tincidunt mollis mi, ut porttitor orci tempor nec Nam eget magna
-                id mi mattis matt
-              </p>
-            </div>
-            <div>
-              <NotificationsActiveIcon
-                sx={{
-                  width: "50px",
-                  height: "50px",
-                }}
-              />
-              <div className="IconTextLine"></div>
-            </div>
-          </div>
-
-          <div className="cardHeadingandContainet">
-            <div>
-              <h2>Charts and Orderbook</h2>
-              <p>
-                Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Sed
-                tincidunt mollis mi, ut porttitor orci tempor nec Nam eget magna
-                id mi mattis matt
-              </p>
-            </div>
-            <div>
-              <NotificationsActiveIcon
-                sx={{
-                  width: "50px",
-                  height: "50px",
-                }}
-              />
-              <div className="IconTextLine"></div>
-            </div>
-          </div>
-          <div className="cardHeadingandContainet">
-            <div>
-              <h2>Latest News Stories</h2>
-              <p>
-                Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Sed
-                tincidunt mollis mi, ut porttitor orci tempor nec Nam eget magna
-                id mi mattis matt
-              </p>
-            </div>
-            <div>
-              <NotificationsActiveIcon
-                sx={{
-                  width: "50px",
-                  height: "50px",
-                }}
-              />
-              <div className="IconTextLine"></div>
-            </div>
-          </div>
+          {comprehesiveFeatures1.map((item) => {
+            return (
+              <div key={item.id} className="cardHeadingandContainet">
+                <div>
+                  <h2>{item.title}</h2>
+                  <p>{item.description}</p>
+                </div>
+                <div>
+                  <item.IconUrl
+                    sx={{
+                      width: "50px",
+                      height: "50px",
+                      color: "#00C6CF",
+                    }}
+                  />
+                  <div className="IconTextLine"></div>
+                </div>
+              </div>
+            );
+          })}
         </div>
 
         <div className="phoneImage">
@@ -78,63 +43,29 @@ const Comprehensive = () => {
         </div>
 
         <div className="comprehesiveContainentContainer">
-          <div className="cardHeadingandContainet secondeCardConatiner">
-            <div>
-              <NotificationsActiveIcon
-                sx={{
-                  width: "50px",
-                  height: "50px",
-                }}
-              />
-              <div className="IconTextLine"></div>
-            </div>
-            <div className="secondeCardIcon">
-              <h2>Price Notifications</h2>
-              <p>
-                Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Sed
-                tincidunt mollis mi, ut porttitor orci tempor nec Nam eget magna
-                id mi mattis matt
-              </p>
-            </div>
-          </div>
-          <div className="cardHeadingandContainet">
-            <div>
-              <NotificationsActiveIcon
-                sx={{
-                  width: "50px",
-                  height: "50px",
-                }}
-              />
-              <div className="IconTextLine"></div>
-            </div>
-            <div className="secondeCardIcon">
-              <h2>Over 100 Cryptocurrencies</h2>
-              <p>
-                Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Sed
-                tincidunt mollis mi, ut porttitor orci tempor nec Nam eget magna
-                id mi mattis matt
-              </p>
-            </div>
-          </div>
-          <div className="cardHeadingandContainet">
-            <div>
-              <NotificationsActiveIcon
-                sx={{
-                  width: "50px",
-                  height: "50px",
-                }}
-              />
-              <div className="IconTextLine"></div>
-            </div>
-            <div className="secondeCardIcon">
-              <h2>Global Coverage</h2>
-              <p>
-                Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Sed
-                tincidunt mollis mi, ut porttitor orci tempor nec Nam eget magna
-                id mi mattis matt
-              </p>
-            </div>
-          </div>
+          {comprehesiveFeatures2.map((item) => {
+            return (
+              <div
+                key={item.id}
+                className="cardHeadingandContainet secondeCardConatiner"
+              >
+                <div>
+                  <item.IconUrl
+                    sx={{
+                      width: "50px",
+                      height: "50px",
+                      color: "#00C6CF",
+                    }}
+                  />
+                  <div className="IconTextLine"></div>
+                </div>
+                <div className="secondeCardIcon">
+                  <h2>{item.title}</h2>
+                  <p>{item.description}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

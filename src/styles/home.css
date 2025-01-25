@@ -38,7 +38,7 @@
   background-color: #0d4c7f;
   background-image: linear-gradient(to top left, #0d4c7f, #43aed4);
   width: 100%;
-  height: 95vh;
+  /* height: 98vh; */
 }
 
 .cryptomackbookandcontainentImage {
@@ -61,10 +61,10 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  /* object-fit: cover; */
 }
 
 .CryptosiderImage img {
+  width: 100%;
   margin-top: 450px;
 }
 

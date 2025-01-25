@@ -13,9 +13,12 @@
   text-align: center;
   align-items: center;
 }
-
+.ourAppTitleandSubTitleContainer h1 {
+  color: #053d72;
+}
 .ourAppTitleandSubTitleContainer p {
   font-size: 1.5rem;
+  color: #63739a;
 }
 
 .ourCardmainContainer {
@@ -26,6 +29,7 @@
   flex-direction: row;
   justify-content: center;
 }
+
 .featureItem {
   display: flex;
   flex-direction: row;
@@ -34,29 +38,18 @@
   padding: 1rem;
 }
 .iconContainer {
-  padding-right: 1rem;
   display: flex;
-  align-items: center;
   justify-content: center;
-}
-.iconContainer img {
-  width: 35px;
-  height: 25px;
-}
-.iconContainer img {
-  border-radius: 20px;
-  z-index: 1;
-  position: absolute;
+  align-items: center;
+  margin-right: 1.5rem;
 }
 
 .imgContainer {
-  width: 30px;
-  height: 30px;
-}
-.imgContainer {
-  border-radius: 20px;
-  z-index: 1;
+  width: 1.5rem;
+  height: 1.5rem;
   position: absolute;
+  color: #00c6cf;
+  z-index: 1;
 }
 
 .textContainer {
@@ -66,6 +59,12 @@
 .textContainer h3 {
   color: #053d72;
   font-size: 1.37rem;
+  margin-bottom: 1rem;
+  /* padding-bottom: 2rem; */
+}
+.textContainer p {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
 }
 
 .dividermainContainer {

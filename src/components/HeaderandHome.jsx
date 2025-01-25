@@ -25,6 +25,7 @@ const HeaderandHome = () => {
           <div className="CryptosiderImage">
             <img src={CryptosiderImage} />
           </div>
+
           <div className="CrptomackbookImage">
             <div className="cryptomackbookandcontainentImage">
               <img src={CryptomackbookImage} />

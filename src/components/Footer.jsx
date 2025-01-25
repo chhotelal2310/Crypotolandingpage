@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "@mui/material/Button";
 import ArrowForwardOutlinedIcon from "@mui/icons-material/ArrowForwardOutlined";
-import Items from "../FooterDetails/data";
+import Items from "../components/FooterDetails/data";
 import "../styles/footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -72,11 +72,11 @@ const Footer = () => {
           <div className="footerbodyRightContainer">
             {Items.map((item) => {
               return (
-                <div className="footerLinkContainer">
+                <div key={item.id} className="footerLinkContainer">
                   <div className="footerLinkTitle">{item.title}</div>
-                  {item.subtitle.map((val) => {
+                  {item.subtitle.map((val, idx) => {
                     return (
-                      <div className="FooterLinkTextAndArrow">
+                      <div key={idx} className="FooterLinkTextAndArrow">
                         <span>{val}</span>
                         <ArrowForwardOutlinedIcon
                           sx={{

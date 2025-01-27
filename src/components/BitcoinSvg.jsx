@@ -7,7 +7,6 @@ import bitcoin_icon5 from "../images/bitBackgroundImage/bitcoin-icon5.png";
 import bitcoin_icon6 from "../images/bitBackgroundImage/bitcoin-icon6.png";
 import bitcoin_icon7 from "../images/bitBackgroundImage/bitcoin-icon7.png";
 import bitcoin_icon8 from "../images/bitBackgroundImage/bitcoin-icon8.png";
-// import bitcoin_icon7 from "../images/bitBackgroundImage/bitcoin-icon7.png";
 const BitcoinSvg = () => {
   return (
     <>

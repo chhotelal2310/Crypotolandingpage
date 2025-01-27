@@ -1,11 +1,11 @@
 import React from "react";
-import HexagonOutlinedIcon from "@mui/icons-material/HexagonOutlined";
 import "../styles/ourapp.css";
 import {
   ourappContainentData1,
   ourappContainentData2,
 } from "./OurAppContainentDetails/ourappContainentData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { PiHexagonThin } from "react-icons/pi";
 
 const OurApp = () => {
   return (
@@ -30,8 +30,8 @@ const OurApp = () => {
                       beat
                       className="imgContainer"
                     />
-                    <HexagonOutlinedIcon
-                      sx={{
+                    <PiHexagonThin
+                      style={{
                         width: "64px",
                         height: "64px",
                       }}
@@ -60,8 +60,8 @@ const OurApp = () => {
                       beat
                       className="imgContainer"
                     />
-                    <HexagonOutlinedIcon
-                      sx={{
+                    <PiHexagonThin
+                      style={{
                         width: "64px",
                         height: "64px",
                       }}

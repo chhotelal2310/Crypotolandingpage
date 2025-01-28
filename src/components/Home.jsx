@@ -7,6 +7,7 @@ import CryptosiderImage from "../images/CryptoSiderImage.png";
 import CryptomackbookImage from "../images/CryptomacbookImage.png";
 import cryptoComputerImage from "../images/cryptoComputerImage.png";
 import "../styles/home.css";
+import { Link } from "react-scroll";
 
 function Home() {
   return (
